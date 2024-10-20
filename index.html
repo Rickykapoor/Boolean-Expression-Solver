@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Expression Simplifier & K-Map Minimizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Boolean Expression Simplifier</h1>
+        <p>Simplify Boolean expressions, minimize using K-Maps, and visualize logic circuits.</p>
+    </header>
+
+    <section id="input-section">
+        <h2>Enter Boolean Expression</h2>
+        <textarea id="boolean-expression" placeholder="Enter Boolean expression (e.g., A + B * !C)"></textarea>
+        <button id="simplify-button">Simplify Expression</button>
+    </section>
+
+    <section id="results-section">
+        <h2>Simplified Expression</h2>
+        <p id="simplified-result">Your simplified Boolean expression will appear here.</p>
+
+        <h2>Karnaugh Map (K-Map) Minimization</h2>
+        <div id="kmap-steps">
+            <!-- K-map SVG will be inserted here -->
+        </div>
+
+       
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
